@@ -1,0 +1,4 @@
+> paradox
+
+> check
+$ must-mirror target/paradox/site/main/swagger/swagger.yaml swagger.yaml

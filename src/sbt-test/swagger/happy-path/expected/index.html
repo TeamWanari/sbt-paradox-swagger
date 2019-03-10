@@ -1,0 +1,17 @@
+<p></p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@3.17.0/swagger-ui.css">
+<script src="https://unpkg.com/swagger-ui-dist@3/swagger-ui-bundle.js"></script>
+<script>
+  window.onload = function() {
+    var ui = SwaggerUIBundle({
+      url: `swagger/swagger.yaml`,
+      dom_id: '#swagger-ui-xxxxxxxx',
+      presets: [
+        SwaggerUIBundle.presets.apis,
+        SwaggerUIBundle.SwaggerUIStandalonePreset
+      ]
+    });
+  }
+</script>
+<div id="swagger-ui-xxxxxxxx"></div>
+<p></p>
